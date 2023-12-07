@@ -1,0 +1,19 @@
+# Ignore everything by default.
+*
+
+# Include specific top-level files.
+!/.gitignore
+!/go.mod
+!/go.sum
+!/LICENSE
+!/README.md
+
+# Include top-level .go files
+!/*.go
+
+# Include meta package
+!/meta
+!/meta/*.go
+!/meta/**
+!/meta/**/*.go
+
